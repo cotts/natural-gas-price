@@ -1,4 +1,6 @@
-## Henry Hub Natural Gas Spot Price
+# <center> Henry Hub Natural Gas Spot Price </center>
+
+</br>
 
 <img src="./src/assets/graph.png">
 
