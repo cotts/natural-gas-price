@@ -1,5 +1,8 @@
-# <center> Henry Hub Natural Gas Spot Price </center>
+<div align="center"> 
 
+# Henry Hub Natural Gas Spot Price
+
+</div>
 </br>
 
 <img src="./src/assets/graph.png">
