@@ -5,7 +5,7 @@
 </br>
 </br>
 
-<p>To check it working, <a href="https://cotts.github.io/gasprice/" > click here </a>.</p>
+<p>To check it working, <a href="https://cotts.github.io/natural-gas-price/" > click here </a>.</p>
 
 </br>
 
