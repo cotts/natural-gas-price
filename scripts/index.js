@@ -50,3 +50,11 @@ function createCSV(data) {
 
   writeCSV.writeRecords(data)
 }
+
+/**
+ * Flow to excecute the script and show a output in case of success.
+ */
+fetchData(APIKEY)
+  .then(parserArrayInformation)
+  .then(createCSV)
+  .then(console.log('CSV File Created Sucessfully'))
