@@ -20,3 +20,16 @@ async function fetchData(key) {
     throw new Error('Error On Fetch Information.')
   }
 }
+
+/**
+ *
+ * @param {Array} array - JSON array of prices to be parsed
+ * This method will map the values and split the date and price
+ * and return them to be used on csv format
+ */
+function parserArrayInformation(array) {
+  return array.map(value => ({
+    date: `${value[0].slice(0, 4)}-${value[0].slice(4, 6)}`,
+    price: value[1]
+  }))
+}
