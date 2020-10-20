@@ -33,3 +33,20 @@ function parserArrayInformation(array) {
     price: value[1]
   }))
 }
+
+/**
+ *
+ * @param {Array} data - List of prices to be saved as csv file
+ * The default path is thee PATH value on main scope
+ */
+function createCSV(data) {
+  const writeCSV = createObjectCsvWriter({
+    path: PATH,
+    header: [
+      { id: 'date', title: 'date' },
+      { id: 'price', title: 'price' }
+    ]
+  })
+
+  writeCSV.writeRecords(data)
+}
