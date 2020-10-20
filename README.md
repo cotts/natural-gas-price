@@ -1,11 +1,13 @@
-## Henry Hub Natural Gas Spot Price
+# <center> Henry Hub Natural Gas Spot Price </center>
+
+</br>
 
 <img src="./src/assets/graph.png">
 
 </br>
 </br>
 
-<p>To check it working, <a href="https://cotts.github.io/natural-gas-price/" > click here </a>.</p>
+<p>To check this project online on Github Pages, <a href="https://cotts.github.io/natural-gas-price/" > clicking here</a>.</p>
 
 </br>
 
