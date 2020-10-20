@@ -1,0 +1,41 @@
+{
+    "profile": "tabular-data-package",
+    "name": "monthly-prices",
+    "contrubutors": {
+        "title": "Thadeu Cotts",
+        "role": "author"
+    },
+    "homepage": "https://github.com/cotts/oil-prices",
+    "description": "Henry Hub Natural Gas Price",
+    "title": "Natural Gas - Henry Hub Monthly Prices",
+    "resources": {
+        "name": "csv-data",
+        "path": "monthlyPrices.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+            "fields": [
+                {
+                    "name": "date",
+                    "type": "date",
+                    "format": "default"
+                },
+                {
+                    "name": "price",
+                    "type": "number",
+                    "format": "default"
+                }
+            ]
+        }
+    },
+    "keywords": [
+        "natural gas",
+        "monthly prices"
+    ],
+    "licences": [
+        {
+            "name": "ODC-PDDL-1.0",
+            "title": "Open Data Commons Public Domain Dedication and Licence 1.0",
+            "path": "http://www.opendefinition.org/licenses/odc-pddl"
+          }
+    ]
+}
